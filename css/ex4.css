@@ -1,0 +1,29 @@
+.section {
+    display: flex;
+    flex-direction: column;
+  }
+  .main {
+    display: flex;
+    margin: 10px;
+    background-color: #ffffff;
+    min-width: 200px;
+    font-size: larger;
+  }
+  .sidebar {
+    display: flex;
+    margin: 10px;
+    background-color: #ffffff;
+    min-width: 200px;
+    font-size: larger;
+    float: left;
+  }
+  .flexContainer {
+    display: flex;
+    background-color: bisque;
+
+  }
+  .flexGrowContainer {
+    display: flex;
+    align-items: stretch;
+    background-color: blueviolet;
+  }
